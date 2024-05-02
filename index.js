@@ -12,6 +12,6 @@ document.getElementById('submit').addEventListener('click', (event) => {
         alert('password should be filled');
     }
     else {
-        alert(`${userName} submitted successfully`);
+        alert(`Your username is ${userName} \n Your password is ${password}`);
     }
 })
